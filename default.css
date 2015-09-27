@@ -528,6 +528,8 @@
 	padding: 2em 2em;
 	border: 1px solid rgba(0,0,0,0.1);
 	border-radius: 8px;
+
+	text-align: center;
 }
 
 
@@ -536,7 +538,7 @@
 		overflow: hidden;
 		padding: 5em 0em;
 	}
-	
+
 	#extra .title
 	{
 		text-align: center;
