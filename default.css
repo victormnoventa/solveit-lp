@@ -416,13 +416,13 @@
 /* Page                                                                          */
 /*********************************************************************************/
 
-	#page
+	#business
 	{
 		padding: 5em 0em;
 		text-align: center;
 	}
 	
-	#page .button
+	#business .button
 	{
 		margin-top: 2em;
 		display: inline-block;
@@ -483,7 +483,7 @@
 /* Featured                                                                      */
 /*********************************************************************************/
 
-	#featured
+	#academic
 	{
 		overflow: hidden;
 		padding: 5em 0em;
@@ -492,12 +492,12 @@
 		color: rgba(255,255,255,.8);
 	}
 
-	#featured a
+	#academic a
 	{
 		color: rgba(255,255,255,1);
 	}
 	
-	#featured .button
+	#academic .button
 	{
 		background: #FFF;
 		margin-top: 3em;
@@ -505,16 +505,16 @@
 		color: #27AE61;
 	}
 
-	#featured .title
+	#academic .title
 	{
 	}
 
-	#featured .title h2
+	#academic .title h2
 	{
 		color: #FFF;
 	}
 
-	#featured .title .byline
+	#academic .title .byline
 	{
 		color: rgba(255,255,255,.6);
 	}

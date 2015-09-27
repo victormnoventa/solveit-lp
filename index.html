@@ -26,15 +26,15 @@ Released   : 20140107
 <body>
 <div id="header" class="container">
 	<div id="logo">
-		<h1><a href="#">Pastime</a></h1>
+		<h1><a href="#">SolveIt</a></h1>
 	</div>
 	<div id="menu">
 		<ul>
 			<li class="current_page_item"><a href="#" accesskey="1" title="">Homepage</a></li>
-			<li><a href="#" accesskey="2" title="">Our Clients</a></li>
-			<li><a href="#" accesskey="3" title="">About Us</a></li>
-			<li><a href="#" accesskey="4" title="">Careers</a></li>
-			<li><a href="#" accesskey="5" title="">Contact Us</a></li>
+			<li><a data-scroll href="#business" accesskey="2" title="">Para empresas</a></li>
+			<li><a data-scroll href="#academic" accesskey="3" title="">Para universitários</a></li>
+			<li><a data-scroll href="#" accesskey="4" title="">Careers</a></li>
+			<li><a data-scroll href="#" accesskey="5" title="">Contact Us</a></li>
 		</ul>
 	</div>
 </div>
@@ -55,7 +55,7 @@ Released   : 20140107
 		</ul>
 	</div>
 </div>
-<div id="page" class="container">
+<div id="business" class="container">
 	<div class="title">
 		<h2>Para você empresário</h2>
 		<!--span class="byline">Lorem ipsum dolor sit amet, consectetuer adipiscing elit</span-->
@@ -65,7 +65,7 @@ Released   : 20140107
 		<li><a href="#" class="button">Saber mais</a></li>
 	</ul>
 </div>
-<div id="featured">
+<div id="academic">
 	<div class="container">
 		<div class="title">
 			<h2>Mas e eu, um universitário?</h2>
@@ -108,16 +108,21 @@ Released   : 20140107
 
 <!--Start of Tawk.to Script-->
 <script type="text/javascript">
-var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
-(function(){
-var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
-s1.async=true;
-s1.src='https://embed.tawk.to/5607ef1b5af36a4c39668ebe/default';
-s1.charset='UTF-8';
-s1.setAttribute('crossorigin','*');
-s0.parentNode.insertBefore(s1,s0);
-})();
+	var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+	(function(){
+	var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+	s1.async=true;
+	s1.src='https://embed.tawk.to/5607ef1b5af36a4c39668ebe/default';
+	s1.charset='UTF-8';
+	s1.setAttribute('crossorigin','*');
+	s0.parentNode.insertBefore(s1,s0);
+	})();
 </script>
 <!--End of Tawk.to Script-->
+
+<script src="js/smooth-scroll.min.js"></script>
+<script>
+    smoothScroll.init();
+</script>
 </body>
 </html>
